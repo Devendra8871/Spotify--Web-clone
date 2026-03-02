@@ -1,124 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Spotify - web Player: Music for everyone</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link rel="stylesheet" href="music clone.css">
-      <link rel="icon" href="./assert/logo-min.png">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - web Player: Music for everyone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="music clone.css">
+  <link rel="icon" href="./assert/logo-min.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <div class="main">
     <div class="sidebar">
       <div class="nav">
-        <div class="nav-option" style ="opacity: 1;">
+        <div class="nav-option" style="opacity: 1;">
           <i class="fa-solid fa-house"></i>
           <a href="#">Home</a>
-        </div>   
-         <div class="nav-option">
+        </div>
+        <div class="nav-option">
           <i class="fa-solid fa-magnifying-glass"></i>
           <a href="#">Search</a>
-         </div>
         </div>
-        <div class="library ">
-          <div class="option">
-            <div class="lib-option nav-option">
-              <i class="fa-solid fa-book"></i>
-              <a href="#">your library</a>
-            </div>
-            <div class="icon">
-              <i class="fa-solid fa-plus"></i>
-              <i class="fa-solid fa-arrow-right"></i>
-            </div>
+      </div>
+      <div class="library ">
+        <div class="option">
+          <div class="lib-option nav-option">
+            <i class="fa-solid fa-book"></i>
+            <a href="#">your library</a>
           </div>
+          <div class="icon">
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
 
-          <div class="lib-box">
-            <div class="box">
-             <p class="box-p1">Create your first playlist</p>
-             <p class="box-p2">It's easy,we'll help you</p>
-             <button class="badge">Create playlist</button>
-            </div>
-            <div class="box">
-             <p class="box-p1">Let's find some podcasts to follow</p>
-             <p class="box-p2">We'll keep you update on new episodes</p> 
-             <button class="badge">Browse podcasts</button>
-            </div>
+        <div class="lib-box">
+          <div class="box">
+            <p class="box-p1">Create your first playlist</p>
+            <p class="box-p2">It's easy,we'll help you</p>
+            <button class="badge">Create playlist</button>
           </div>
-        </div>      
+          <div class="box">
+            <p class="box-p1">Let's find some podcasts to follow</p>
+            <p class="box-p2">We'll keep you update on new episodes</p>
+            <button class="badge">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="main-content">
-        <div class="sticky-nav">
-          <div class="sticky-nav-icon">
-            <i class="fa-solid fa-circle-arrow-left"></i>
-            <i class="fa-solid fa-circle-arrow-right hide"></i>
-          </div>
-        
-          <div class="sticky-nav-options">
-            <button class="badge hide">Explore Premium</button>
-            <button class="badge dark"><i class="fa-regular fa-circle-down"></i> install App</button>
-            <a href="#"><i class="fa-regular fa-user"></i></a>
-          </div>
+      <div class="sticky-nav">
+        <div class="sticky-nav-icon">
+          <i class="fa-solid fa-circle-arrow-left"></i>
+          <i class="fa-solid fa-circle-arrow-right hide"></i>
         </div>
-            <h2> Recently played</h2>
-          <div class="cards">
-            <div class="cards-container">
-              <img src="./assert/region_global_default.jpg" class="image">
-              <p class="card-title">Top 50 - Global</p>
-              <p class="card-info">Your daily updates of the most played tracks</p>
-            </div>
-          </div>
-            <h2> Trending now near you</h2> 
-          <div class="class-container">  
-            <div class="cards">
-             <img src="./assert/region_global_default.jpg" class="image">
-             <p class="card-title">Top 50 - Global</p>
-             <p class="card-info">Your daily updates of the most played tracks</p>
-            </div> 
-            <div class="cards">
-             <img src="./assert/region_global_default.jpg" class="image">
-             <p class="card-title">Top 50 - Global</p>
-             <p class="card-info">Your daily updates of the most played tracks</p>
-            </div> 
-            <div class="cards">
-             <img src="./assert/region_global_default.jpg" class="image">
-             <p class="card-title">Top 50 - Global</p>
-             <p class="card-info">Your daily updates of the most played tracks</p>
-            </div>  
-            <div class="cards">
-             <img src="./assert/region_global_default.jpg" class="image">
-             <p class="card-title">Top 50 - Global</p>
-             <p class="card-info">Your daily updates of the most played tracks</p>
-            </div>  
-          </div>
-        <div class="footer"></div>
-        <div class="line"></div>
+
+        <div class="sticky-nav-options">
+          <button class="badge hide">Explore Premium</button>
+          <button class="badge dark"><i class="fa-regular fa-circle-down"></i> install App</button>
+          <a href="#"><i class="fa-regular fa-user"></i></a>
+        </div>
+      </div>
+      <h2> Recently played</h2>
+      <div class="cards">
+        <div class="cards-container">
+          <img src="./assert/region_global_default.jpg" class="image">
+          <p class="card-title">Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played tracks</p>
+        </div>
+      </div>
+      <h2> Trending now near you</h2>
+      <div class="class-container">
+        <div class="cards">
+          <img src="./assert/region_global_default.jpg" class="image">
+          <p class="card-title">Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played tracks</p>
+        </div>
+        <div class="cards">
+          <img src="./assert/region_global_default.jpg" class="image">
+          <p class="card-title">Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played tracks</p>
+        </div>
+        <div class="cards">
+          <img src="./assert/region_global_default.jpg" class="image">
+          <p class="card-title">Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played tracks</p>
+        </div>
+        <div class="cards">
+          <img src="./assert/region_global_default.jpg" class="image">
+          <p class="card-title">Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played tracks</p>
+        </div>
+      </div>
+      <div class="footer"></div>
+      <div class="line"></div>
     </div>
     <div class="music-player">
       <div class="music-info">1
-      
+
       </div>
       <div class="music-controls">
         <div class="player-control">
-         <i class="fa-solid fa-shuffle"></i>
-         <i class="fa-solid fa-backward"></i>
-         <i class="fa-solid fa-play" style="font-size:2rem;opacity:1;"></i>
-         <i class="fa-solid fa-forward"></i>
-         <i class="fa-solid fa-repeat"></i>
+          <i class="fa-solid fa-shuffle"></i>
+          <i class="fa-solid fa-backward"></i>
+          <i class="fa-solid fa-play" style="font-size:2rem;opacity:1;"></i>
+          <i class="fa-solid fa-forward"></i>
+          <i class="fa-solid fa-repeat"></i>
         </div>
         <div class="playback-bar">
-         <span class="current-time">00:00</span>
-         <input type="range" min="0" max="100" class="progress-bar">
-         <span class="total-time">3:33</span>
+          <span class="current-time">00:00</span>
+          <input type="range" min="0" max="100" class="progress-bar">
+          <span class="total-time">3:33</span>
         </div>
       </div>
-     <div class="music-buttons">3
-     </div>
-    </div>   
+      <div class="music-buttons">3
+      </div>
+    </div>
   </div>
 </body>
 <script src="aap.js"></script>
+
 </html>
